@@ -1,7 +1,8 @@
-const { Thought, User } = require('models');
+const { Thought, User } = require('../models');
 
 const thoughtController = {
-    getAllThought(req, res){
+    
+    getAllThought(req, res) {
         Thought.find({})
         .select('-_v')
         .sort({_id: -1})
