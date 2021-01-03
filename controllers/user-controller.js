@@ -38,8 +38,10 @@ const userController = {
             res.status(400).json(err)
         })
     },
-    
+    // deleteUser({ params }, res) {
+
+    // }
 }
 
 
-module.exports = thoughtController;
+module.exports = UserController;
