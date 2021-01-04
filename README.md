@@ -11,7 +11,7 @@
 - [Contact](##Contact-me-via-email)
 ## Description
 > This is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
-[See it in action on YouTube](https://youtu.be/UWtdQzYGybY)
+[See it in action here](https://alexandraws29.github.io/social-network-api-video/)
 ![screenshot of the application running in Insomnia Core](./images/screenshot.JPG)
 ## How To Install The Application
 > Simply open the application in Insomnia Core and play around.
