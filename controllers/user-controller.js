@@ -1,6 +1,6 @@
 const { User } = require('../models');
 
-const userController = {
+const UserController = {
     getAllUser(req, res) {
         User.find({})
         .select('-_v')
@@ -38,9 +38,9 @@ const userController = {
             res.status(400).json(err)
         })
     },
-    // deleteUser({ params }, res) {
+    deleteUser({ params }, res) {
 
-    // }
+    }
 }
 
 

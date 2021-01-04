@@ -52,9 +52,17 @@ const thoughtController = {
                 res.status(400).json(err);
             })
     },
-    // deleteThought({ params }, res){
-
-    // }
+    deleteThought({ params }, res) {
+        Thought.findOneAndDelete({ _id: params.id })
+        .then(dbThoughtData => {
+            if(!dbThoughtData) {
+                require.status(404).json({message: 'No thought found with this id.'});
+                return;
+            }
+            res.json(dbThoughtData)
+        })
+        .catch(err => res.status(400).json(err));
+    },
     createReaction({ params, body }, res) {
         Thought.findOneAndUpdate(
             { _id: params.thoughtId },
