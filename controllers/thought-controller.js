@@ -103,6 +103,7 @@ const thoughtController = {
             { new: true }
         )
         .then(dbThoughtData => res.json(dbThoughtData))
+        .then(dbUserData => res.json(dbUserData))
         .catch(err => res.json(err));
     }
 };
