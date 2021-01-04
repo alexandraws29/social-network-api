@@ -56,7 +56,7 @@ const thoughtController = {
         Thought.findOneAndDelete({ _id: params.id })
         .then(dbThoughtData => {
             if(!dbThoughtData) {
-                require.status(404).json({message: 'No thought found with this id.'});
+                res.status(404).json({message: 'No thought found with this id.'});
                 return;
             }
             res.json(dbThoughtData)
