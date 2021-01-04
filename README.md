@@ -1,5 +1,5 @@
 
-# Work Day Scheduler Starter Code
+# Social Network API
 ## Table of Contents
 - [Description](##Description)
 - [Installation](##How-to-install)
@@ -10,15 +10,17 @@
 - [GitHub](##GitHub-profile)
 - [Contact](##Contact-me-via-email)
 ## Description
-> A simple calendar app for scheduling your work day using military time
+> This is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
+[See it in action on YouTube](https://youtu.be/UWtdQzYGybY)
+![screenshot of the application running in Insomnia Core](./images/screenshot.JPG)
 ## How To Install The Application
-> Simply open the page and start adding tasks
+> Simply open the application in Insomnia Core and play around.
 ## Usage Information
-> Type a task next to the black line in each of the timed squares. You can edit tasks and save all tasks. Use this for any scheduling needs
+> Use the app Insomnia Core to go through the program, adding users, friends, thoughts, and reactions.
 ## How To Contribute
 > If you would like to make contributions, then please contact me through GitHub
 ## How To Test The Application
-> Open the program and add a few tasks. You can also edit a task, and if you hit refresh the tasks will be saved
+> Using the app Insomnia Core you can use test the application using the commands as seen in the video linked in the description of the program.
 ## Licencing Information
 > Public Domain
 ## GitHub Profile
