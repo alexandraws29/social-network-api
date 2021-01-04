@@ -65,7 +65,13 @@ const thoughtController = {
                 { new: true }
             );
         })
-
+        .then(dbUserData => {
+            if(!dbUserData) {
+                res.status(404).json({message: 'No thought found with this user id.'});
+                return;
+            }
+            res.json(dbUserData)
+        })
         .then(dbThoughtData => {
             if(!dbThoughtData) {
                 res.status(404).json({message: 'No thought found with this id.'});
